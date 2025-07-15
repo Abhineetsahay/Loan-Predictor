@@ -1,34 +1,43 @@
 # 🏦 Loan Predictor
 
-This is a simple machine learning project to predict whether a loan will be approved or not based on applicant details.
+This is a machine learning project to predict whether a loan will be approved or not based on applicant details.
 
 ---
 
 ## 📂 Project Overview
 
-- Uses **Logistic Regression** to make predictions  
-- Basic Data Cleaning and Preprocessing  
+- Implements both **Logistic Regression** and **Decision Tree Classifier** for prediction  
+- Performs basic data cleaning and preprocessing  
 - Handles imbalanced data  
-- Evaluates model using accuracy and classification report  
+- Compares model performance using accuracy and classification reports  
 
 ---
 
 ## 🛠️ Tools & Libraries
 
 - Python  
-- Pandas, NumPy  
-- Seaborn, Matplotlib  
+- Pandas  
+- NumPy  
+- Seaborn  
+- Matplotlib  
 - Scikit-learn  
 
 ---
+
 ## 📈 Output Example
 
-The model achieves around **75-76% accuracy** on test data.
+Both models achieve around **75-76% accuracy** on the test data.  
+Performance may vary slightly depending on preprocessing and feature selection.
 
 ---
+
 ## 📊 Dataset
 
 The dataset is from Kaggle and contains applicant details like gender, marital status, income, credit history, and property area:
 
 [Loan Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset/data)
 
+
+---
+
+Let me know if you want to add visualizations, confusion matrix plots, or model explanation (like feature importance).
